@@ -1,0 +1,238 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-03T20:17:10.656Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2782381900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automtion.steps.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "verify verify User Can Able To Add Employee",
+        "description": "",
+        "id": "add-employee-test;verify-verify-user-can-able-to-add-employee",
+        "after": [
+          {
+            "result": {
+              "duration": 136919700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automtion.steps.Hooks.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3903606200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user open website",
+            "match": {
+              "location": "com.automtion.steps.LoginSteps.user_open_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4384286500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter valid credentials",
+            "match": {
+              "location": "com.automtion.steps.LoginSteps.user_enter_valid_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 40886300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify login successful",
+            "match": {
+              "location": "com.automtion.steps.HomeSteps.verify_login_successful()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2354265600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user select Add Employee from PIM menu",
+            "match": {
+              "location": "com.automtion.steps.HomeSteps.user_select_add_employee_from_pim_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 77650600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "enter first name",
+            "match": {
+              "location": "com.automtion.steps.AddEmployeeSteps.enter_first_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55728600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "enter last name",
+            "match": {
+              "location": "com.automtion.steps.AddEmployeeSteps.enter_last_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1873720500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click on save button",
+            "match": {
+              "location": "com.automtion.steps.AddEmployeeSteps.click_on_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 91273200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "verify employee details on personal details page",
+            "match": {
+              "location": "com.automtion.steps.ViewPersonalDetailsSteps.verify_employee_details_on_personal_details_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@chirag"
+          }
+        ]
+      }
+    ],
+    "name": "Add Employee Test",
+    "description": "\tTester - chirag - chirag@knowledgetransfer.com",
+    "id": "add-employee-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/AddEmployeeTest.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-03T20:17:26.509Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1646438200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automtion.steps.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "verify User Can Able To Login",
+        "description": "",
+        "id": "login-functionality-test;verify-user-can-able-to-login",
+        "after": [
+          {
+            "result": {
+              "duration": 200175000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automtion.steps.Hooks.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3752799100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user open website",
+            "match": {
+              "location": "com.automtion.steps.LoginSteps.user_open_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4541740900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter valid credentials",
+            "match": {
+              "location": "com.automtion.steps.LoginSteps.user_enter_valid_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 26262000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify login successful",
+            "match": {
+              "location": "com.automtion.steps.HomeSteps.verify_login_successful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@arpita"
+          }
+        ]
+      }
+    ],
+    "name": "Login Functionality Test",
+    "description": "\tTester - chirag - chirag@knowledgetransfer.com",
+    "id": "login-functionality-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/LoginTest.feature",
+    "tags": []
+  }
+]
